@@ -1,0 +1,176 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+      position: relative;
+      top: calc(10px + 68px); /* Navbar height (10px) + additional spacing (20px) */
+      width: 100%;
+      padding: 20px; /* Optional padding for better appearance */
+      background-color: white; /* Optional background color */
+      box-sizing: border-box;
+    }
+    
+    /* Full-width inputs */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    /* Add a hover effect for buttons */
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    /* Extra style for the cancel button (red) */
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    /* Center the avatar image inside this container */
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    /* Avatar image */
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+    
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+    }
+    
+    /* The "Forgot password" text */
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+        display: block;
+        float: none;
+      }
+      .cancelbtn {
+        width: 100%;
+      }
+    }
+  
+    /***** Page Home CSS *****/
+  
+    @import url('https://fonts.googleapis.com/css?family=Ingrid Darling');
+  @import url('https://fonts.googleapis.com/css?family=Imprint MT Shadow');
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background: #D1B39B;
+  
+  }
+  
+  form {
+      text-align: center;
+  }
+  
+  h1 {
+      color: #1E1E1E;
+      text-align: center;
+      font-family: 'Imprint MT Shadow';
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 150px;
+      padding-bottom: 60px;
+  }
+  
+  
+  .list {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Add this line to center the items vertically */
+  }
+  
+  ul {
+      display: flex;
+  }
+  
+  li {
+      list-style: none;
+      margin-right: 65px;
+      padding: 5px 14px;
+      text-align: center; /* Add this line to center the text horizontally */
+  }
+  
+  li a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  h2 {
+      font-family: 'Ingrid Darling';
+      color: #FCCBA5;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0; /* Remove default margin to prevent unwanted spacing */
+      margin-left: 500px;
+   }
+  
+  /* Additional styles if needed */
+  nav {
+      background-color: #4F3C3C;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .home-nav {
+      padding: 14px 16px;
+  }
+  
+  .hello img {
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      width: 564px;
+      height: 564px;
+      margin-bottom: 60px;
+  }
+
+  /* Cards */
+
+   .card-container {
+
+    display: inline-block;
+    flex-direction: row; /* or other values as needed */
+    flex-wrap: wrap;
+  }
+
+ 
+
