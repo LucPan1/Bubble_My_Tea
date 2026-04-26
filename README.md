@@ -27,6 +27,12 @@ Le CRUD est utilisé pour gérer les éléments principaux du site:
 - Update : modifier un produit existant
 - Delete : supprimer un produit
 
+🔹 Côté utilisateur
+
+Create : créer un compte, passer une commande
+Read : consulter les produits et ses commandes
+Update : modifier ses informations personnelles
+
 ## 🧱 Architecture technique
 
 Le projet suit l’architecture MVC de Laravel :
