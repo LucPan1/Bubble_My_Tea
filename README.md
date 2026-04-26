@@ -29,9 +29,9 @@ Le CRUD est utilisé pour gérer les éléments principaux du site:
 
 🔹 Côté utilisateur
 
-Create : créer un compte, passer une commande
-Read : consulter les produits et ses commandes
-Update : modifier ses informations personnelles
+- Create : créer un compte, passer une commande
+- Read : consulter les produits et ses commandes
+- Update : modifier ses informations personnelles
 
 ## 🧱 Architecture technique
 
