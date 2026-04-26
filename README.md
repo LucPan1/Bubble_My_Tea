@@ -27,6 +27,8 @@ Le CRUD est utilisé pour gérer les éléments principaux du site:
 - Update : modifier un produit existant
 - Delete : supprimer un produit
 
+## 👤 Utilisateurs
+
 🔹 Côté utilisateur
 
 - Create : créer un compte, passer une commande
